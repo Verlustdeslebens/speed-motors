@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="icons8-двигатель-96.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Motors</title>
+    <link rel="stylesheet" href="salon.css">
+    <link rel="stylesheet" href="avtosaon.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom:  0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+        }
+        .rty{
+            margin-bottom: 40px;
+        }
+        .container1{
+            display: flex;
+        }
+        .container{
+            width: 30%;
+            padding: 50px;
+            border: 2px solid black;
+        
+        }
+
+        body.light{
+            color: black;
+            background-color: #fff;
+        }
+
+        body.dark{
+            color: wheat;
+            background-color: rgb(37, 37, 37);
+        }
+        #theme{
+            padding: 10px 30px;
+            background-color: white;
+        }
+
+        
+    </style>
+</head>
+<body class="light"> 
+
+    <div class="all"> 
+        <div class="navbar" id="header">
+            <a href="landing_logo.jpeg" class="logo"><div class="box"></div></a>
+            <div class="navitem">
+                <div class="navlogo">
+                    <a href="logo.webp"><img src="loo.webp" alt=""></a>
+                </div>
+                <div class="navigation">
+                    <a href="Avto.html" class="navhome">Home</a>
+                    <a href="about.html" class="nav">About</a>
+                    <a href="contaks.html" class="nav">Contacts</a>
+                    <a href="login.html" class="nav" id="show">Sign Up</a>
+                    
+                </div>
+                    <div class="navimg">
+                        <a href="https://www.instagram.com/" class="nav1"><img src="free-icon-instagram-2111463.png" alt=""></a>
+                        <a href="https://telegram.org/?1" class="nav1"><img src="free-icon-telegram-2504941.png" alt=""></a>
+                        <a href="https://www.whatsapp.com/" class="nav1"><img src="free-icon-whatsapp-2504957.png" alt=""></a>
+                        <a href="https://www.google.kz/" class="nav1"><img src="free-icon-google-2504914.png" alt=""></a>
+                        <a href="index.html" class="nav1"><img src="icons8-мир-танков-48.png" alt=""></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <section>
+        <article>
+            <img src="audi rrs.webp" class="image" alt="">
+            <h2>Audi RS7</h2>
+            <p>Спортивный пятидверный фастбэк класса Гран Туризмо, выпускаемый подразделением Audi Sport GmbH на платформе Audi A7.</p>
+            <p>Цена: $231 571
+            </p>
+            <a href="Audi.html" id="vibor">Выбор</a>
+        </article>
+
+        <article>
+            <img src="cls 1.jpeg" class="image" alt="">
+            <h2>Mercedes-Benz C218</h2>
+            <p>Четырёхдверное люксовое купе, второе поколение CLS-класса немецкого автопроизводителя Mercedes-Benz, сконструированное на базе W212 E-класса.</p>
+            <p>Цена: $90 000</p>
+            <a href="cls.html" id="vibor">Выбор</a>
+        </article>
+
+        <article>
+            <img src="priora 1.jpeg" class="image" alt="">
+            <h2>Lada Priora</h2>
+            <p>Спортивный Четырёхдверный седан люкс класса, Двигателем W12 который развивает рекордную скорость 438км/ч</p>
+            <p>Цена: $4,3 Million</p>
+            <a href="priora.html" id="vibor">Выбор</a>
+        </article>
+
+        <article>
+            <img src="rolls rolce.jpeg" class="image" alt="">
+            <h2>Roll-Royce Wraith Black Badge</h2>
+            <p>Wraith Black Badge – вершина роскоши и технического совершенства. Как с точки зрения технологий, так и дизайна,</p>
+            <p>Цена: $1 310 000
+            </p>
+            <a href="Roll-Royce Wraith Black Badge.html" id="vibor">Выбор</a>
+        </article>
+
+        <article>
+            <img src="ford-mustang 1.png" class="image" alt="">
+            <h2>Ford Mustang</h2>
+            <p>Американский монстр, представлен в кузове купе или кабриолет. Оснащается бензиновым двигателем мощностью от 319 до 487 лошадиных сил. Задний привод. Коробка передач — механика или автомат. </p>
+            <p>Цена: $130 000
+            </p>
+            <a href="ford-mustang.html" id="vibor">Выбор</a>
+        </article>
+    </section>
+
+    <button id="theme" onclick="themedarklight()">Theme</button>
+
+
+    <div class="otziv">
+        <a href="Otziv.html" id="vibor">
+        Отзывы
+        </a>
+    </div>
+
+    <div class="contact">
+        <a href="contact.html" id="vibor">Наши контакты</a>
+    </div>
+
+    <div class="con1">
+       
+    
+        <footer>
+            &copy; 2023 Speed Motors All rights reserved.
+        </footer>
+    </div>
+
+    <script>
+        function themedarklight() {
+            var body = document.body
+            body.classList.toggle('dark')
+            body.classList.toggle('light')
+        }
+    </script>
+
+</body>
+</html>
